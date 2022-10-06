@@ -1,0 +1,9 @@
+using System;
+
+double venda = 0;
+
+Console.WriteLine("DIGITE O VALOR DE VENDAS AO MÊS E VOCÊ RECEBERÁ 5% DE COMISSÃO: ");
+venda = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("");
+double comissao = (venda * 5/100);
+Console.WriteLine($"O VENDEDOR DE RECEBERÁ DE COMISSÃO: {comissao}");

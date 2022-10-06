@@ -1,0 +1,14 @@
+using System;
+
+int iddmin = 0;
+int iddmax = 0;
+int iddmedia = 0;
+
+Console.WriteLine("DIGITE A PRIMEIRA IDADE: ");
+iddmax = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("DIGITE A SEGUNDA IDADE: ");
+iddmin= Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("");
+idd = ((iddmin + iddmax)/2);
+
+Console.WriteLine($"A IDADE MEDIA É: {iddmedia}");

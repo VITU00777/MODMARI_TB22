@@ -1,0 +1,11 @@
+using System;
+
+double real = 5.13;
+double euro = 0;
+
+
+Console.WriteLine("DIGITE O VALOR DE EUROS DESEJADO: ");
+euro = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("");
+double convert = (euro * real);
+Console.WriteLine($"O VALOR CONVERTIDO DE EUROS EM REAL É: {convert}");
